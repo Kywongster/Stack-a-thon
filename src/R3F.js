@@ -19,7 +19,7 @@ const Cube = () => {
 
 const R3f = () => {
 	return (
-		<Canvas camera={{ position: [0, 0, 3] }}>
+		<Canvas camera={{ position: [1, 0, 3] }}>
 			<ambientLight />
 			<pointLight position={[10, 10, 10]} />
 			<Cube />
